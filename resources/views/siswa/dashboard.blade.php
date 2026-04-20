@@ -3,7 +3,8 @@
 @section('content')
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb mb-0" style="font-size: 0.875rem; font-weight: 500;">
-            <li class="breadcrumb-item">Dashboard</li>
+            <li class="breadcrumb-item"><a href="{{ route('siswa.dashboard') }}"
+                    class="text-decoration-none text-secondary">Dashboard</a></li>
         </ol>
     </nav>
     <div class="container-fluid py-4">

@@ -3,7 +3,8 @@
 @section('content')
     <nav aria-label="breadcrumb" class="mb-3">
         <ol class="breadcrumb mb-0" style="font-size: 0.875rem; font-weight: 500;">
-            <li class="breadcrumb-item">History Aspiration</li>
+            <li class="breadcrumb-item"><a href="{{ route('input_aspirasi.index') }}"
+                    class="text-decoration-none text-secondary">History Aspirations</a></li>
         </ol>
     </nav>
     <div class="table-container shadow-sm">
@@ -47,7 +48,8 @@
                                 <div class="text-center py-5">
                                     <span class="material-symbols-outlined text-secondary"
                                         style="font-size: 3rem;">history</span>
-                                    <p class="text-secondary mt-3 mb-0" style="font-size: 0.875rem;">Anda belum mengajukan aspirasi apapun.</p>
+                                    <p class="text-secondary mt-3 mb-0" style="font-size: 0.875rem;">Anda belum mengajukan
+                                        aspirasi apapun.</p>
                                 </div>
                             </td>
                         </tr>
