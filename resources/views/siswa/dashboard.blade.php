@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb mb-0" style="font-size: 0.875rem; font-weight: 500;">
+            <li class="breadcrumb-item">Dashboard</li>
+        </ol>
+    </nav>
     <div class="container-fluid py-4">
-        <nav aria-label="breadcrumb" class="mb-3">
-            <ol class="breadcrumb mb-0" style="font-size: 0.875rem; font-weight: 500;">
-                <li class="breadcrumb-item">Dashboard</li>
-            </ol>
-        </nav>
 
         @if (session('success'))
             <div class="alert alert-success alert-dismissible fade show" role="alert">
