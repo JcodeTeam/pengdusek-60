@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="card border-0">
-        <div class="card-header bg-white py-3">
-            <h5 class="mb-0 fw-bold text-gray-800">Riwayat Aspirasi Anda</h5>
-        </div>
-    </div>
+    <nav aria-label="breadcrumb" class="mb-3">
+        <ol class="breadcrumb mb-0" style="font-size: 0.875rem; font-weight: 500;">
+            <li class="breadcrumb-item">History Aspiration</li>
+        </ol>
+    </nav>
     <div class="table-container shadow-sm">
         <div class="table-responsive">
             <table class="table table-hover align-middle mb-0">
