@@ -61,7 +61,7 @@
                             belajar mengajar bersama.
                         </p>
                         <div class="d-flex flex-column flex-sm-row gap-3">
-                            <a href="{{ route('input_aspirasi.create') }}"
+                            <a href="{{ route('siswa.dashboard') }}"
                                 class="btn btn-primary btn-lg px-4 py-3 fw-bold rounded-3 shadow-sm">
                                 Buat Laporan Sekarang
                             </a>
