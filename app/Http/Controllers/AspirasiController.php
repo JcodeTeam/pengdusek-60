@@ -26,7 +26,7 @@ class AspirasiController extends Controller
 
     public function index(Request $request)
     {
-        $query = InputAspirasi::with(['siswa.user', 'kategori'])->latest();
+        $query = InputAspirasi::with(['siswa.user', 'kategori'])->orderByRaw("FIELD(status, 'menunggu', 'proses', 'selesai')");
 
         if ($request->filled('student_name')) {
             $query->whereHas('siswa.user', function ($q) use ($request) {
